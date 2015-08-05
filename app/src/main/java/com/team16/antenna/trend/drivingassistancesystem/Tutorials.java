@@ -7,12 +7,12 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class Settings extends BaseActivity {
+public class Tutorials extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_tutorials);
         super.onCreateDrawer();
         //Action bar needs to be instatiate in every Activity that has layout
         setUpActionBar();
@@ -22,7 +22,7 @@ public class Settings extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_settings, menu);
+        getMenuInflater().inflate(R.menu.menu_tutorials, menu);
         return true;
     }
 
@@ -45,7 +45,7 @@ public class Settings extends BaseActivity {
     private void setUpActionBar() {
         //Uses superclass method to instantiate ActionBar
         mActionBarToolbar = getActionBarToolbar();
-        mActionBarToolbar.setTitle(getResources().getString(R.string.action_settings));
+        mActionBarToolbar.setTitle(getResources().getString(R.string.title_tutorials));
         setSupportActionBar(mActionBarToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);

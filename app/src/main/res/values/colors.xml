@@ -412,7 +412,6 @@
     <color name="md_lime_500_75">#c0cddc39</color>
     <!--yellows -->
     <array name="yellows">
-        <item>@color/md_yellow_500</item>
         <item>@color/md_yellow_50</item>
         <item>@color/md_yellow_100</item>
         <item>@color/md_yellow_200</item>
@@ -422,6 +421,7 @@
         <item>@color/md_yellow_700</item>
         <item>@color/md_yellow_800</item>
         <item>@color/md_yellow_900</item>
+        <item>@color/md_yellow_500</item>
         <item>@color/md_yellow_A100</item>
         <item>@color/md_yellow_A200</item>
         <item>@color/md_yellow_A400</item>
