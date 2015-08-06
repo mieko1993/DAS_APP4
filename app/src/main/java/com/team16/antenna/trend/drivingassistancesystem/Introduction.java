@@ -42,6 +42,10 @@ public class Introduction extends ActionBarActivity {
                 case 3:
                     return new Intro4();
                 case 4:
+                    return new Intro5();
+                case 5:
+                    return new Intro6();
+                case 6:
                     onDestroy();
                 default:
                     return null;
